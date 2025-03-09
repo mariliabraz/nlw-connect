@@ -1,6 +1,6 @@
-import { ComponentProps, ReactNode } from "react";
+import { ComponentProps } from "react";
 
-interface ButtonProps extends ComponentProps<"button"> {}
+interface ButtonProps extends ComponentProps<"button"> { }
 
 export function Button(props: ButtonProps) {
   return (
