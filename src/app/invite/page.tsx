@@ -45,66 +45,68 @@ export default function InvitePage() {
                         <div className='relative bg-gray-700 border border-gray-600 px-4 py-7 flex flex-col items-center justify-center gap-1 rounded-xl'>
                             <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>1042</span>
                             <span className='text-sm text-gray-300 leading-none text-center'> Acessos ao link</span>
-                        </div>
-                        <MousePointerClick className='size-5 text-purple absolute top-3 left-3' />
-                    </div>
 
-                    <div className='grid gap-3 md:grid-cols-3'>
+                            <MousePointerClick className='size-5 text-purple absolute top-3 left-3' />
+                        </div>
+
+
                         <div className='bg-gray-700 border border-gray-600 px-4 py-7 flex flex-col items-center justify-center gap-1 rounded-xl'>
                             <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>1042</span>
                             <span className='text-sm text-gray-300 leading-none text-center'> Inscrições Feitas</span>
-                        </div>
-                        <BadgeCheck className='size-5 text-purple absolute top-3 left-3' />
-                    </div>
 
-                    <div className='grid gap-3 md:grid-cols-3'>
+                            <BadgeCheck className='size-5 text-purple absolute top-3 left-3' />
+
+                        </div>
+
                         <div className='bg-gray-700 border border-gray-600 px-4 py-7 flex flex-col items-center justify-center gap-1 rounded-xl'>
                             <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>1042</span>
                             <span className='text-sm text-gray-300 leading-none text-center'> Acessos ao link</span>
+
+                            <Medal className='size-5 text-purple absolute top-3 left-3' />
+
                         </div>
-                        <Medal className='size-5 text-purple absolute top-3 left-3' />
                     </div>
-                </div>
-            </div>
-            <div className='w-full max-w-[440px] space-y-5'>
-                <h2 className='text-gray-200 text-xl font-heading font-semibold leading-none'>
-                    Ranking de Indicações
-                </h2>
-                <div className='space-y-4'>
-                    <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
-                        <span className='text-sm text-gray-300 leading-none'>
-                            <span className='font-semibold'>1º</span> |
-                            Diego Fernandes
-                        </span>
+                    <div className='w-full max-w-[440px] space-y-5'>
+                        <h2 className='text-gray-200 text-xl font-heading font-semibold leading-none'>
+                            Ranking de Indicações
+                        </h2>
+                        <div className='space-y-4'>
+                            <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
+                                <span className='text-sm text-gray-300 leading-none'>
+                                    <span className='font-semibold'>1º</span> |
+                                    Diego Fernandes
+                                </span>
 
-                        <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
-                            1030
-                        </span>
-                        <Image src={gold} alt='medal' className='absolute right-8 top-0' />
-                    </div>
+                                <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
+                                    1030
+                                </span>
+                                <Image src={gold} alt='medal' className='absolute right-8 top-0' />
+                            </div>
 
-                    <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
-                        <span className='text-sm text-gray-300 leading-none'>
-                            <span className='font-semibold'>2º</span> |
-                            Diego Fernandes
-                        </span>
+                            <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
+                                <span className='text-sm text-gray-300 leading-none'>
+                                    <span className='font-semibold'>2º</span> |
+                                    Diego Fernandes
+                                </span>
 
-                        <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
-                            1030
-                        </span>
-                        <Image src={silver} alt='medal' className='absolute right-8 top-0' />
-                    </div>
+                                <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
+                                    1030
+                                </span>
+                                <Image src={silver} alt='medal' className='absolute right-8 top-0' />
+                            </div>
 
-                    <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
-                        <span className='text-sm text-gray-300 leading-none'>
-                            <span className='font-semibold'>3º</span> |
-                            Diego Fernandes
-                        </span>
+                            <div className='relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-6'>
+                                <span className='text-sm text-gray-300 leading-none'>
+                                    <span className='font-semibold'>3º</span> |
+                                    Diego Fernandes
+                                </span>
 
-                        <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
-                            1030
-                        </span>
-                        <Image src={cooper} alt='medal' className='absolute right-8 top-0' />
+                                <span className='font-heading text-2xl font-semibold text-gray-200 leading-none'>
+                                    1030
+                                </span>
+                                <Image src={cooper} alt='medal' className='absolute right-8 top-0' />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
